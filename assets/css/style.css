@@ -44,6 +44,10 @@ header h1 {
     list-style: none;
   }
 
+  header nav ul .nav-menu {
+    border-bottom: solid blue;
+  }
+
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
@@ -65,7 +69,25 @@ header h1 {
 /* Hero section end */
 
 /* About-me section begin */
-#about-me h2 {
-  
-}
+
 /* About-me section end */
+
+/* work section begin */
+.projects {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  flex: 1;
+}
+
+.projects img {
+  width: 100%;
+  padding: 60px 60px 60px 60px;
+}
+
+/* work section end */
