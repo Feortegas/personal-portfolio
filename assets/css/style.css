@@ -107,6 +107,11 @@ nav {
   .mobile-menu {
     display: block;
   }
+
+  .header-logo h1 {
+    font-size: 20px;
+  }
+
 }
 
 /* visible for medium-large screens */
@@ -189,9 +194,10 @@ text-decoration: none;
 }
 
 .contact-info a {
-  padding-right: 24px;
-  text-decoration: none;
-  color: var(--dm-text-color);
+  font-size: 22px;
+  padding: 10px;
+  color: var(--dm-txt-background-color);
+  border-bottom: 6px solid var(--dm-txt-background-color);
 }
 
 /* contact-me section end */
