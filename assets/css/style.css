@@ -154,7 +154,7 @@ nav {
 /* hero section begin */
 .hero {
   background: url(../images/hero-img.png);
-  background-size: 60%;
+  background-size: 20%;
   padding: 200px 35px 20px 0;
   background-attachment: fixed;
 }
@@ -170,9 +170,8 @@ nav {
 
 /* about me section begin */
 .my-profile {
-  /* background: var(--tertiary-color); */
   width: 100%;
-  margin: 50px 0;
+  margin: 200px 0;
 }
 
 .my-profile-menu {
@@ -193,22 +192,22 @@ nav {
   border-left: 5px solid var(--tertiary-color);
 }
 
-.profile-img {
+.my-profile-img {
   flex: 1 12%;
   margin-right: 20px;
   padding-left: 50px;
 }
 
-.profile-img img {
+.my-profile-img img {
   max-width: 60%;
 }
 
-.profile-text {
+.my-profile-text {
   flex: 1 70%;
   line-height: 1.8;
 }
 
-.profile-text p {
+.my-profile-text p {
   font-size: 23px;
   color: var(--tertiary-color);
 }
@@ -219,12 +218,55 @@ nav {
 
 /* work section begin */
 
-.project img {
+.work-section {
   width: 100%;
-  padding: 60px 60px 60px 60px;
+  margin: 50px 0;
 }
 
-/* .project:hover img {
+.my-projects-menu {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.my-projects-menu h2 {
+  color: var(--tertiary-color);
+  font-size: 30px;
+  text-align: right;
+  padding-right: 20px;
+  flex: 1 20%;
+}
+
+.my-projects {
+  border-left: 5px solid var(--tertiary-color);
+}
+
+.my-project-info {
+  flex: 1;
+  background: var(--tertiary-color);
+  margin: 20px;
+}
+
+.my-project-info a img {
+  max-width: 100%;
+}
+
+.my-project-text {
+  padding: 25px;
+  line-height: 1.3;
+}
+
+.my-project-text h3 {
+  font-size: 18px;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.my-project-text p {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+/* .my-project:hover img {
   -webkit-transform: scale (1.3);
   transform: scale(1.3);
 } */
