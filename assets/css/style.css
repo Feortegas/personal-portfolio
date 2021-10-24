@@ -158,6 +158,13 @@ nav {
   padding: 200px 35px 20px 0;
   background-attachment: fixed;
 }
+
+.hero h2 {
+  color: var(--secondary-color);
+  background: var(--tertiary-color);
+  font-size: 23px;
+  padding: 5px 60px 5px 25px;
+}
 /* hero section end */
 
 
