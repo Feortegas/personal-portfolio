@@ -200,11 +200,12 @@ nav {
 }
 
 .profile-img img {
-  max-width: 100%;
+  max-width: 60%;
 }
 
 .profile-text {
   flex: 1 70%;
+  line-height: 1.8;
 }
 
 .profile-text p {
