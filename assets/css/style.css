@@ -205,7 +205,7 @@ nav {
 
 .work-section {
   width: 100%;
-  margin: 50px 0;
+  margin: 200px 0;
 }
 
 .my-projects-menu {
@@ -297,15 +297,24 @@ nav {
 /* contact-me section end */
 
 
+/* resume section begin */
+.my-resume {
+  width: 100%;
+  margin: 200px 0;
+}
+
+/* resume section end */
+
+
 /* footer section begin */
 .footer {
-  padding: 24px;
+  padding: 50px;
 }
 
 .footer h2 {
   color: var(--tertiary-color);
   font-size: 30px;
-  text-align: center;
+  text-align: right;
 }
 
 /* footer section end */
