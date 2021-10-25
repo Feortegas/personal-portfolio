@@ -2,6 +2,8 @@
 
 Developing my personal portfolio website.
 
+link: https://feortegas.github.io/personal-portfolio/
+
 ## Technologies
 
 * HTML
