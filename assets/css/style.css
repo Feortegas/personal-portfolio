@@ -5,6 +5,22 @@
 
 }
 
+/* fade in animation for mobile menu */
+@keyframes fade-in {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  99% {
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -51,11 +67,66 @@ nav {
   width: 32px;
   height: 4px;
   background-color: var(--tertiary-color);
+  transition: all 300ms ease-in-out;
+  transform-origin: 3px 1px;
 }
 
 .mobile-menu span:not(:last-child) {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
+
+/* first child */
+.open span:first-child{
+  transform: rotate(45deg);
+}
+
+/* second child */
+.open span:nth-child(2){
+  opacity: 0;  
+}
+
+/* third and last child */
+.open span:last-child{
+  transform: rotate(-45deg);  
+}
+
+.open .overlay {
+  display: block;
+  animation: fade-in 300ms ease-in-out forwards;
+}
+
+.overlay {
+  opacity: 0;
+  display: none;
+  position: fixed;
+  top: 100px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: linear-gradient(var(--secondary-color), transparent);
+}
+
+.mobile-menu-box {
+  visibility: hidden;
+  background: var(--secondary-color);
+  padding: 20px;
+  width: calc(100% - 200px);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.mobile-menu-box a {
+  display: block;
+  color: var(--tertiary-color);
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-visible {
+  background-image: linear-gradient(var(--secondary-color), transparent);
+}
+
 /* mobile menu end */
 
 
@@ -304,9 +375,9 @@ nav {
 
 /* visible for small screens */
 @media screen and (max-width: 1024px) {
-  .mobile-menu {
-    display: block;
-  }
+  /* .mobile-menu {
+    display: inline-block;
+  } */
 
   .header-logo h1 {
     font-size: 20px;
