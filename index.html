@@ -1,182 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Fernando Ortega - Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-    </head>
-    <body>
-        <!-- Header - navigation section -->
-        <header class="header">
-            <!-- overlay for mobile-menu -->
-            <div class="overlay"></div>
 
-            <nav class="flex jc-sb ai-c">
-                <a href="/" class="header-logo">
-                    <h1>Fernando Ortega</h1>
-                </a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Ortega - Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-                <!-- mobile menu - for mobile only -->
-                <!-- animation based on research online - codepen mostly -->
-                <!-- <a id="btn-mobile-menu" href="#" class="mobile-menu">
+<body>
+    <!-- Header - navigation section -->
+    <header class="header">
+        <!-- overlay for mobile-menu -->
+        <div class="overlay"></div>
+
+        <nav class="flex jc-sb ai-c">
+            <a href="/" class="header-logo">
+                <h1>Fernando Ortega</h1>
+            </a>
+
+            <!-- mobile menu - for mobile only -->
+            <!-- animation based on research online - codepen mostly -->
+            <!-- <a id="btn-mobile-menu" href="#" class="mobile-menu">
                     <span></span>
                     <span></span>
                     <span></span>
                 </a> -->
 
-                <!-- links - for large screens only -->
-                <div class="desktop-menu">
-                    <a href="#about-me">About Me</a>
-                    <a href="#work">Work</a>
-                    <a href="#contact-me">Contact Me</a>
-                    <a href="#resume">Resume</a>
-                </div>
-            </nav>
+            <!-- links - for large screens only -->
+            <div class="desktop-menu">
+                <a href="#about-me">About Me</a>
+                <a href="#work">Work</a>
+                <a href="#contact-me">Contact Me</a>
+                <a href="#resume">Resume</a>
+            </div>
+        </nav>
 
-            <!-- <div class="mobile-menu-box menu-visible">
+        <!-- <div class="mobile-menu-box menu-visible">
                 <a href="#about-me">About Me</a>
                 <a href="#work">Work</a>
                 <a href="#contact-me">Contact Me</a>
                 <a href="#resume">Resume</a>
             </div> -->
 
-        </header>
+    </header>
 
-        <!-- Hero - Jumbotron section -->
-        <section class="hero">
-            <!-- <div class="hero-img">
+    <!-- Hero - Jumbotron section -->
+    <section class="hero">
+        <!-- <div class="hero-img">
                 <img src="./assets/images/hero-img.png" alt="" />
             </div> -->
-            <div class="hero-text flex jc-end ai-c">
-                <h2>my first landing page...</h2>
-            </div>
-        </section>
+        <div class="hero-text flex jc-end ai-c">
+            <h2>my first landing page...</h2>
+        </div>
+    </section>
 
-        <!-- About me section -->
-        <section id="about-me" class="my-profile flex">
-            <div class="my-profile-menu">
-                <h2>About<br>Me</h2>
+    <!-- About me section -->
+    <section id="about-me" class="my-profile flex">
+        <div class="my-profile-menu">
+            <h2>About<br>Me</h2>
+        </div>
+        <div class="my-profile-info flex flex-w ai-c">
+            <div class="my-profile-img ">
+                <img src="./assets/images/profile.png" alt="profile avatar" />
             </div>
-            <div class="my-profile-info flex flex-w ai-c">
-                <div class="my-profile-img ">
-                    <img src="./assets/images/profile.png" alt="profile avatar" />
-                </div>
-                <div class="my-profile-text">
-                    <p>
-                        Hi, my name is Fernando Ortega.
-                        <br>
-                        This is the section About Me, where I am supposed to write something about me, duh!
-                        <br>
-                        Let's do this later...
-                        <br>
-                    </p>
-                </div>
+            <div class="my-profile-text">
+                <p>
+                    Hi, my name is Fernando Ortega.
+                    <br><br>
+                    I am a Software Engineer Team Leader specialized in Industrial Automation, working on the industry
+                    for the past 18 years. With the revolution of web applications, I decided to improve my technical skills and become
+                    a full stack web developer.
+                    <br><br>
+                    This is my Portfolio page. Enjoy it.
+                    <br>
+                </p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Work section -->
-        <section id="work" class="work-section flex">
-            <div class="my-projects-menu">
-                <h2>Work</h2>
-            </div>
+    <!-- Work section -->
+    <section id="work" class="work-section flex">
+        <div class="my-projects-menu">
+            <h2>Work</h2>
+        </div>
 
-            <div class="my-projects flex flex-w jc-c ai-c">
-                <div>
-                    <!-- Project number 1 -->
-                    <div class="my-project-info">
-                        <a href="https://feortegas.github.io/SpotiTube/" target="_blank">
-                            <img src="./assets/images/work/spotitube.png" alt="SpotiTube project webpage image" />
-                        </a>
-                        <div class="my-project-text">
-                            <h3>SpotiTube website</h3>
-                            <p>
-                                SpotiTube web app, allows the user to Search for a Spotify playlist and then insert the tracks to a YouTube playlist (Official videos).
-                                It's a colaboration between the Spotify API and YouTube API.
-                            </p>
-                        </div>
+        <div class="my-projects flex flex-w jc-c ai-c">
+            <div>
+                <!-- Project number 1 -->
+                <div class="my-project-info">
+                    <a href="https://afternoon-tundra-62298.herokuapp.com/" target="_blank">
+                        <img src="./assets/images/work/reddit-light.png" alt="Reddit-light homepage screenshot" />
+                    </a>
+                    <div class="my-project-text">
+                        <h3>reddit-light website</h3>
+                        <p>
+                            Light version of reddit.com. Focus of the application is for the user that is not a die-hard reddit user
+                            to be able to focus on the posts and comments only.
+                            It also benefits communities where internet connection speed is not as fast as in rich countries.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="flex flex-w jc-sb ai-c">
-                    <!-- Project number 2 -->
-                    <div class="my-project-info">
-                        <a href="https://feortegas.github.io/run-buddy/" target="_blank">
-                            <img src="./assets/images/work/run-buddy.jpg" alt="run-buddy project webpage image - a person ready to start jogging" />
-                        </a>
-                        <div class="my-project-text">
-                            <h3>Run-Buddy Website</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptates, quas sed necessitatibus deserunt illum! Libero, vero error optio, iure necessitatibus quam quasi sequi molestias veniam, corrupti incidunt dolorem suscipit.</p>
-                        </div>
+            <div class="flex flex-w jc-sb ai-c">
+                <!-- Project number 2 -->
+                <div class="my-project-info">
+                    <a href="https://feortegas.github.io/SpotiTube/" target="_blank">
+                        <img src="./assets/images/work/spotitube.png"
+                            alt="SpotiTube project webpage image" />
+                    </a>
+                    <div class="my-project-text">
+                        <h3>SpotiTube website</h3>
+                        <p>
+                            SpotiTube web app, allows the user to Search for a Spotify playlist and then insert the
+                            tracks to a YouTube playlist (Official videos).
+                            It's a colaboration between the Spotify API and YouTube API.
+                        </p>
                     </div>
-    
-                    <!-- Project number 3 -->
-                    <div class="my-project-info">
-                        <a href="https://feortegas.github.io/city-weather-dashboard/" target="_blank">
-                            <img src="./assets/images/work/city-weather-dashboard.png" alt="City Weather Dashboard project webpage image" />
-                        </a>
-                        <div class="my-project-text">
-                            <h3>City Weather Dashboard</h3>
-                            <p>Search for the current weather for your local city or future destination. Get also 5 days Forecast</p>
-                        </div>
-                    </div>
-    
-                    <!-- Project number 4 -->
-                    <div class="my-project-info">
-                        <a href="https://feortegas.github.io/code-quiz-classic-movies/" target="_blank">
-                            <img src="./assets/images/work/code-quiz.png" alt="Code Quiz project webpage image" />
-                        </a>
-                        <div class="my-project-text">
-                            <h3>Classic Action Movies Quiz</h3>
-                            <p>Enjoy a short Classic Action Movies Quiz. Think fast or you will run out of time!</p>
-                        </div>
-                    </div>
-
-                    <!-- Project number 5 -->
-                    <div class="my-project-info">
-                        <a href="https://feortegas.github.io/whats-up-today/" target="_blank">
-                            <img src="./assets/images/work/work-day-scheduller.png" alt="Day scheduller project webpage image" />
-                        </a>
-                        <div class="my-project-text">
-                            <h3>Work day scheduller Website</h3>
-                            <p>Plan your day appointments and to-do's with this Day Scheduller web app</p>
-                        </div>
-                    </div>
-
                 </div>
-            </div>
-        </section>
 
-        <!-- Contact me section -->
-        <section id="contact-me" class="contact flex">
-            <div class="contact-menu">
-                <h2>Contact<br>Me</h2>
-            </div>
-            <div class="contact-info flex flex-w jc-sa ai-c">
-                <a href="#">555-555-5555</a>
-                <a href="#">xxxxxxx@gmail.com</a>
-                <a href="#">GitHub</a>
-                <a href="#">Twiter</a>
-                <a href="#">Spotify</a>
-            </div>
-        </section>
+                <!-- Project number 3 -->
+                <div class="my-project-info">
+                    <a href="https://feortegas.github.io/run-buddy/" target="_blank">
+                        <img src="./assets/images/work/run-buddy.jpg"
+                            alt="run-buddy project webpage image - a person ready to start jogging" />
+                    </a>
+                    <div class="my-project-text">
+                        <h3>Run-Buddy Website</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptates, quas sed
+                            necessitatibus deserunt illum! Libero, vero error optio, iure necessitatibus quam quasi
+                            sequi molestias veniam, corrupti incidunt dolorem suscipit.
+                        </p>
+                    </div>
+                </div>
 
-        <!-- Resume section -->
-        <section id="resume" class="my-resume flex">
-            <div class="contact-menu">
-                <h2>Resume</h2>
-            </div>
-            <div class="contact-info flex flex-w jc-sa ai-c">
-                <a href="#">Resume</a>
-            </div>
-        </section>
+                <!-- Project number 4 -->
+                <div class="my-project-info">
+                    <a href="https://feortegas.github.io/city-weather-dashboard/" target="_blank">
+                        <img src="./assets/images/work/city-weather-dashboard.png"
+                            alt="City Weather Dashboard project webpage image" />
+                    </a>
+                    <div class="my-project-text">
+                        <h3>City Weather Dashboard</h3>
+                        <p>
+                            Search for the current weather for your local city or future destination. Get also 5 days
+                            Forecast
+                        </p>
+                    </div>
+                </div>
 
-        <!-- Footer section -->
-        <footer class="footer">
-            <h2>Made by<br>Fernando Ortega</h2>
-        </footer>
-        <!-- load js script -->
-        <script src="./assets/js/script.js"></script>
-    </body>
+                <!-- Project number 5 -->
+                <div class="my-project-info">
+                    <a href="https://feortegas.github.io/code-quiz-classic-movies/" target="_blank">
+                        <img src="./assets/images/work/code-quiz.png" alt="Code Quiz project webpage image" />
+                    </a>
+                    <div class="my-project-text">
+                        <h3>Classic Action Movies Quiz</h3>
+                        <p>
+                            Enjoy a short Classic Action Movies Quiz. Think fast or you will run out of time!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project number 6 -->
+                <div class="my-project-info">
+                    <a href="https://feortegas.github.io/whats-up-today/" target="_blank">
+                        <img src="./assets/images/work/work-day-scheduller.png"
+                            alt="Day scheduller project webpage image" />
+                    </a>
+                    <div class="my-project-text">
+                        <h3>Work day scheduller Website</h3>
+                        <p>
+                            Plan your day appointments and to-do's with this Day Scheduller web app
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section id="contact-me" class="contact flex">
+        <div class="contact-menu">
+            <h2>Contact<br>Me</h2>
+        </div>
+        <div class="contact-info flex flex-w jc-sa ai-c">
+            <a href="#">555-555-5555</a>
+            <a href="#">xxxxxxx@gmail.com</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twiter</a>
+            <a href="#">Spotify</a>
+        </div>
+    </section>
+
+    <!-- Resume section -->
+    <section id="resume" class="my-resume flex">
+        <div class="contact-menu">
+            <h2>Resume</h2>
+        </div>
+        <div class="contact-info flex flex-w jc-sa ai-c">
+            <a href="#">Resume</a>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <h2>Made by<br>Fernando Ortega</h2>
+    </footer>
+    <!-- load js script -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
 </html>
